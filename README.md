@@ -12,12 +12,12 @@ Seek coaching advise if you need help._
 
 ## Objectives
 
-1. Explain how using `rackup` to start a Sinatra application will only read the
-   code once at boot
-2. Describe how Shotgun allows for automatic code reloading
-3. Install Shotgun and require it in an application's `Gemfile`
-4. Start and stop a Rack or Sinatra application with Shotgun
-5. Troubleshoot common Shotgun problems, including "command not found," "bundler error," and "port in use."
+1.  Explain how using `rackup` to start a Sinatra application will only read the
+    code once at boot
+2.  Describe how Shotgun allows for automatic code reloading
+3.  Install Shotgun and require it in an application's `Gemfile`
+4.  Start and stop a Rack or Sinatra application with Shotgun
+5.  Troubleshoot common Shotgun problems, including "command not found," "bundler error," and "port in use."
 
 ## Setup
 
@@ -76,7 +76,7 @@ Rack with automatic code reloading. Remember: a gem is just a library of code
 that developers wrote and made free and available to the public. This gem lets
 us start Rack to have a development server running to test our app.
 
-[Shotgun]: https://github.com/rtomayko/shotgun
+[shotgun]: https://github.com/rtomayko/shotgun
 
 When you start an application with `shotgun`, all of your application code will
 be reloaded upon every request. That means if you change anything in your code
